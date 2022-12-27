@@ -32,3 +32,12 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function showCourseList(school) {
+var div = document.getElementById(school);
+    if(div.style.display == 'none') {
+        div.style.display = 'block';
+    } else {
+        div.style.display = 'none';
+    }
+}

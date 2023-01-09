@@ -12414,5 +12414,14 @@ Personal CSS Code
 }
 
 .courseList li {
-  padding-top: .3rem;
+  padding-top: .15rem;
+  padding-bottom: .15rem;
+}
+
+.list-inline-item img {
+  display: inline-flex;
+  height: 3rem;
+  width: auto;
+  filter: grayscale(100%) ;
+  vertical-align: -0.125em;
 }
